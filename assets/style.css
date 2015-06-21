@@ -1,0 +1,104 @@
+/*!Replace Me*/
+
+
+/*!controls visibility on different displays*/
+@media (min-width:768px){
+	.visible-desktop{
+		display:block !important;
+
+		height: 500px;
+
+		background-color:#777;
+	}
+}
+@media (max-width:991px){
+	.visible-mobile{
+		display:block !important;
+	}
+
+	.visible-desktop{
+		display:none !important;
+	}
+}
+
+.stream{
+	background-color:#777;
+	color:#fff;
+}
+.gallery{
+	background-color:#777;
+	color:#fff;
+}
+.main{
+	background-color:#777;
+	color:#fff;
+}
+.posts{
+	background-color:#777;
+	color:#fff;
+}
+.page{
+	background-color:#777;
+	color:#fff;
+
+}
+
+/*Top nav bar backgound and border.*/
+.navbar-default {
+  background-color: #f08a00;
+  border-color: transparent;
+}
+
+/*!The color of the name of the website on the nav bar*/
+.navbar-default .navbar-brand{
+	color:#ffffff; 
+}
+
+/*!Icon bar color, the toggle for drop down on low res screens*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+/*!Navagation font colorS*/
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+
+/*!Text control for bodies of text*/
+.body-text{
+	color:#fff;
+}
+
+/*!Text control for titles*/
+.title-text{
+	color:#fff;
+}
+
+.media-border{
+	border-style:solid;
+	border-color:#fff;
+}
+
+.media-offset{
+	padding-bottom:15px;
+}
+
+.stream-offset{
+	padding-top: 50px;
+}
+.recent-posts{
+	border-style:solid;
+
+	border-color:#fff;
+}
+
+a {
+    color: #f08a00;
+    text-decoration-color:white;
+}
+
+a:hover {
+	color:white;
+	text-decoration-color:white;
+}
